@@ -1,0 +1,22 @@
+Original post: https://www.linkedin.com/feed/update/urn:li:activity:6396239842522554368
+
+Handling Missing Values in Data:                                                   
+                                                 There are many ways to approach missing data. The most common, I believe, is to ignore it. which may or may not be a bad choice, depending on why and how much data are missing.  But there are also ways to impute those missing values:
+
+• Mean: the mean of the observed values for that variable
+
+• Mode: the most occuring observed value for that variable
+
+• linear interpolation : The previous valid values before the missing value and the following valid values after the missing value are used for the interpolation.
+
+• Substitution: the value from a new individual who was not selected to be in the sample
+
+• Hot deck: a randomly chosen value from an individual who has similar values on other variables
+
+• Cold deck: a systematically chosen value from an individual who has similar values on other variables
+
+• Regression: the predicted value obtained by regressing the missing variable on other variables
+
+• KNN: point value can be approximated by the values of the points that are closest to it, based on other variables.
+
+
